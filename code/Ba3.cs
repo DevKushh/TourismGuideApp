@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace TourismApp
+{
+    public partial class Ba3 : Form
+    {
+        public Ba3()
+        {
+            InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            panel1.BackColor = Color.FromArgb(150, 0, 0, 0);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://maps.app.goo.gl/pEEupFf5AWei9Eag6");
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://en.m.wikipedia.org/wiki/Vidhana_Soudha");
+
+        }
+    }
+}

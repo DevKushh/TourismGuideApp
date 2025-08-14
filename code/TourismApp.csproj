@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7AE58A8-6ABC-46CA-80C3-05FA4CCCF3EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TourismApp</RootNamespace>
+    <AssemblyName>TourismApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\KUSHAL\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Tourism/</UpdateUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4B6B1533303943D06065DAFB1139ED665FF91FF7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TourismApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba1.Designer.cs">
+      <DependentUpon>Ba1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba2.Designer.cs">
+      <DependentUpon>Ba2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba3.Designer.cs">
+      <DependentUpon>Ba3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba4.Designer.cs">
+      <DependentUpon>Ba4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba5.Designer.cs">
+      <DependentUpon>Ba5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba6.Designer.cs">
+      <DependentUpon>Ba6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba7.Designer.cs">
+      <DependentUpon>Ba7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ba8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ba8.Designer.cs">
+      <DependentUpon>Ba8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bangalore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bangalore.Designer.cs">
+      <DependentUpon>Bangalore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha1.Designer.cs">
+      <DependentUpon>Ha1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha2.Designer.cs">
+      <DependentUpon>Ha2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha3.Designer.cs">
+      <DependentUpon>Ha3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha4.Designer.cs">
+      <DependentUpon>Ha4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha5.Designer.cs">
+      <DependentUpon>Ha5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha6.Designer.cs">
+      <DependentUpon>Ha6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha7.Designer.cs">
+      <DependentUpon>Ha7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ha8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ha8.Designer.cs">
+      <DependentUpon>Ha8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hassan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hassan.Designer.cs">
+      <DependentUpon>Hassan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu1.Designer.cs">
+      <DependentUpon>Hu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu2.Designer.cs">
+      <DependentUpon>Hu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu3.Designer.cs">
+      <DependentUpon>Hu3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu4.Designer.cs">
+      <DependentUpon>Hu4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu5.Designer.cs">
+      <DependentUpon>Hu5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu6.Designer.cs">
+      <DependentUpon>Hu6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu7.Designer.cs">
+      <DependentUpon>Hu7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hu8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hu8.Designer.cs">
+      <DependentUpon>Hu8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hubli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hubli.Designer.cs">
+      <DependentUpon>Hubli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kushDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kushDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma1.Designer.cs">
+      <DependentUpon>Ma1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma2.Designer.cs">
+      <DependentUpon>Ma2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma3.Designer.cs">
+      <DependentUpon>Ma3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma4.Designer.cs">
+      <DependentUpon>Ma4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma5.Designer.cs">
+      <DependentUpon>Ma5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma6.Designer.cs">
+      <DependentUpon>Ma6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma7.Designer.cs">
+      <DependentUpon>Ma7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ma8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ma8.Designer.cs">
+      <DependentUpon>Ma8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mangalore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mangalore.Designer.cs">
+      <DependentUpon>Mangalore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My1.Designer.cs">
+      <DependentUpon>My1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My2.Designer.cs">
+      <DependentUpon>My2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My3.Designer.cs">
+      <DependentUpon>My3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My4.Designer.cs">
+      <DependentUpon>My4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My5.Designer.cs">
+      <DependentUpon>My5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My6.Designer.cs">
+      <DependentUpon>My6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My7.Designer.cs">
+      <DependentUpon>My7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="My8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My8.Designer.cs">
+      <DependentUpon>My8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mysore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mysore.Designer.cs">
+      <DependentUpon>Mysore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sh1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh1.Designer.cs">
+      <DependentUpon>Sh1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh2.Designer.cs">
+      <DependentUpon>Sh2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh3.Designer.cs">
+      <DependentUpon>Sh3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh4.Designer.cs">
+      <DependentUpon>Sh4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh5.Designer.cs">
+      <DependentUpon>Sh5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh6.Designer.cs">
+      <DependentUpon>Sh6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh7.Designer.cs">
+      <DependentUpon>Sh7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sh8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sh8.Designer.cs">
+      <DependentUpon>Sh8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shivamogga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shivamogga.Designer.cs">
+      <DependentUpon>Shivamogga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingDetails.Designer.cs">
+      <DependentUpon>BookingDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba1.resx">
+      <DependentUpon>Ba1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba2.resx">
+      <DependentUpon>Ba2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba3.resx">
+      <DependentUpon>Ba3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba4.resx">
+      <DependentUpon>Ba4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba5.resx">
+      <DependentUpon>Ba5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba6.resx">
+      <DependentUpon>Ba6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba7.resx">
+      <DependentUpon>Ba7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba8.resx">
+      <DependentUpon>Ba8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bangalore.resx">
+      <DependentUpon>Bangalore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha1.resx">
+      <DependentUpon>Ha1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha2.resx">
+      <DependentUpon>Ha2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha3.resx">
+      <DependentUpon>Ha3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha4.resx">
+      <DependentUpon>Ha4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha5.resx">
+      <DependentUpon>Ha5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha6.resx">
+      <DependentUpon>Ha6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha7.resx">
+      <DependentUpon>Ha7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ha8.resx">
+      <DependentUpon>Ha8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hassan.resx">
+      <DependentUpon>Hassan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu1.resx">
+      <DependentUpon>Hu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu2.resx">
+      <DependentUpon>Hu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu3.resx">
+      <DependentUpon>Hu3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu4.resx">
+      <DependentUpon>Hu4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu5.resx">
+      <DependentUpon>Hu5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu6.resx">
+      <DependentUpon>Hu6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu7.resx">
+      <DependentUpon>Hu7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hu8.resx">
+      <DependentUpon>Hu8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hubli.resx">
+      <DependentUpon>Hubli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma1.resx">
+      <DependentUpon>Ma1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma2.resx">
+      <DependentUpon>Ma2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma3.resx">
+      <DependentUpon>Ma3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma4.resx">
+      <DependentUpon>Ma4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma5.resx">
+      <DependentUpon>Ma5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma6.resx">
+      <DependentUpon>Ma6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma7.resx">
+      <DependentUpon>Ma7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ma8.resx">
+      <DependentUpon>Ma8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mangalore.resx">
+      <DependentUpon>Mangalore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My1.resx">
+      <DependentUpon>My1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My2.resx">
+      <DependentUpon>My2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My3.resx">
+      <DependentUpon>My3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My4.resx">
+      <DependentUpon>My4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My5.resx">
+      <DependentUpon>My5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My6.resx">
+      <DependentUpon>My6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My7.resx">
+      <DependentUpon>My7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My8.resx">
+      <DependentUpon>My8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mysore.resx">
+      <DependentUpon>Mysore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sh1.resx">
+      <DependentUpon>Sh1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh2.resx">
+      <DependentUpon>Sh2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh3.resx">
+      <DependentUpon>Sh3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh4.resx">
+      <DependentUpon>Sh4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh5.resx">
+      <DependentUpon>Sh5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh6.resx">
+      <DependentUpon>Sh6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh7.resx">
+      <DependentUpon>Sh7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sh8.resx">
+      <DependentUpon>Sh8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shivamogga.resx">
+      <DependentUpon>Shivamogga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingDetails.resx">
+      <DependentUpon>BookingDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kushDataSet.xsc">
+      <DependentUpon>kushDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kushDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kushDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kushDataSet.xss">
+      <DependentUpon>kushDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TourismApp_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
